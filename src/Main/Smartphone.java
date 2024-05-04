@@ -8,7 +8,7 @@ package Main;
  *
  * @author Ramdani
  */
-public class Smartphone 
+public class Smartphone extends ElectronicsStore 
 {
   private String brand;
   private String model;
@@ -36,6 +36,7 @@ public class Smartphone
     return size;
   }
 
+  @Override
   public String getDescription() 
   {
     return "A compact and versatile device for communication and entertainment.";
