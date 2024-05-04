@@ -8,7 +8,7 @@ package Main;
  *
  * @author Ramdani
  */
-public class Television
+public class Television extends ElectronicsStore 
 {
   private String brand;
   private int size;
@@ -29,8 +29,9 @@ public class Television
     return size;
   }
 
-  // Abstract method to be implemented by subclasses to describe how the food is prepared
-  public String getDescription(){
+  @Override
+  public String getDescription() 
+  {
     return "A high-definition television for an immersive viewing experience.";
   }
 }
