@@ -8,7 +8,7 @@ package Main;
  *
  * @author Ramdani
  */
-public class Laptop 
+public class Laptop extends ElectronicsStore 
 {
   private String brand;
   private String model;
@@ -36,6 +36,7 @@ public class Laptop
     return size;
   }
 
+  @Override
   public String getDescription() 
   {
     return "A powerful and portable computer for work and entertainment.";
