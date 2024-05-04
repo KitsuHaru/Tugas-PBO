@@ -6,7 +6,7 @@ package Main;
 
 /**
  *
- * @author Adam
+ * @author Ramdani
  */
 public class Smartphone 
 {
