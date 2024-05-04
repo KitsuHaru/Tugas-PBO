@@ -8,7 +8,7 @@ package Main;
  *
  * @author Ramdani
  */
-public abstract class ElectronicsStoreAbstract
+public abstract class ElectronicsStore
 {
 
   // Abstract method to be implemented by subclasses to describe the product
